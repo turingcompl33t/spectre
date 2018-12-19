@@ -4,6 +4,8 @@ An exploration of the Spectre processor vulnerability.
 
 ### Overview
 
+In order of integration: 
+
 - `cachetime.c`: a quick look at how we can use timing to determine the presence of particular data in the cache. 
 - `flushreload.c`: using the cache flush+reload technique to determine a secret value based on cache timing. 
 - `ooe.c`: exploiting out of order execution to read a secret value based on the result of an operation that is never actually executed (at the architectural level).
