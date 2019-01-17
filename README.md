@@ -11,7 +11,11 @@ In order of integration:
 - `ooe.c`: exploiting out of order execution to read a secret value based on the result of an operation that is never actually executed (at the architectural level).
 - `attack.c`: the vanilla Spectre attack on a secret value within the same process. 
 - `improved.c`: an improved attack with minimized noise. 
-- `full.c`: an extension of the improved attack to read the entirety of a secret value within the same process. 
+- `full.c`: an extension of the improved attack to read the entirety of a secret value within the same process.
+
+### Environment
+
+Executes successfully in the following environment: Ubuntu 16.04 (32-bit) Linux kernel v4.8.0-36-generic 
 
 ### Acknowledgements
 
