@@ -1,4 +1,4 @@
-## Spectre 
+### Spectre 
 
 An exploration of the Spectre processor vulnerability. 
 
